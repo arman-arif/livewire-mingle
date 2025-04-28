@@ -1,16 +1,16 @@
 <?php
 
-namespace Ijpatricio\Mingle\Facades;
+namespace Ariful\LivewireMingle\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Ijpatricio\Mingle\Mingle
+ * @see \Ariful\LivewireMingle\Mingle
  */
 class Mingle extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
-        return \Ijpatricio\Mingle\Mingle::class;
+        return \Ariful\LivewireMingle\Mingle::class;
     }
 }

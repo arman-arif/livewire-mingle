@@ -1,8 +1,8 @@
 <?php
 
-namespace Ijpatricio\Mingle\Actions;
+namespace Ariful\LivewireMingle\Actions;
 
-use Ijpatricio\Mingle\Replacement;
+use Ariful\LivewireMingle\Replacement;
 
 class AddDemoViewAndRoute
 {

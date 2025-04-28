@@ -27,14 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Ijpatricio\\Mingle\\": "src/",
-            "Ijpatricio\\Mingle\\Database\\Factories\\": "database/factories/"
+            "Ariful\\LivewireMingle\\": "src/",
+            "Ariful\\LivewireMingle\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ijpatricio\\Mingle\\Tests\\": "tests/",
-            "Workbench\\App\\": "workbench/app/"
+            "Ariful\\LivewireMingle\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -65,10 +64,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ijpatricio\\Mingle\\MingleServiceProvider"
+                "Ariful\\LivewireMingle\\MingleServiceProvider"
             ],
             "aliases": {
-                "Mingle": "Ijpatricio\\Mingle\\Facades\\Mingle"
+                "Mingle": "Ariful\\LivewireMingle\\Facades\\Mingle"
             }
         }
     },

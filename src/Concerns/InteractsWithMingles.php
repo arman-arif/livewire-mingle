@@ -1,6 +1,6 @@
 <?php
 
-namespace Ijpatricio\Mingle\Concerns;
+namespace Ariful\LivewireMingle\Concerns;
 
 use Illuminate\Support\Str;
 
@@ -17,11 +17,11 @@ trait InteractsWithMingles
 
     public function mountInteractsWithMingles()
     {
-        $this->mingleId = 'mingle-' . Str::random();
+        $this->mingleId = 'livewire-mingle-' . Str::random();
     }
 
     public function render(): mixed
     {
-        return view('mingle::mingle');
+        return view('livewire-mingle::mingle');
     }
 }

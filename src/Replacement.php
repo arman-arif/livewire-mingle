@@ -1,6 +1,6 @@
 <?php
 
-namespace Ijpatricio\Mingle;
+namespace Ariful\LivewireMingle;
 
 class Replacement
 {

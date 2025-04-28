@@ -1,10 +1,10 @@
 <?php
 
-namespace Ijpatricio\Mingle\Commands;
+namespace Ariful\LivewireMingle\Commands;
 
-use Ijpatricio\Mingle\Actions\AddDemoViewAndRoute;
-use Ijpatricio\Mingle\Actions\ChangeViteConfig;
-use Ijpatricio\Mingle\Actions\ChangeLayoutFile;
+use Ariful\LivewireMingle\Actions\AddDemoViewAndRoute;
+use Ariful\LivewireMingle\Actions\ChangeViteConfig;
+use Ariful\LivewireMingle\Actions\ChangeLayoutFile;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 

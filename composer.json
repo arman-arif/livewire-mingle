@@ -1,5 +1,5 @@
 {
-    "name": "ijpatricio/mingle",
+    "name": "ariful/livewire-mingle",
     "type": "library",
     "description": "Use Vue and React in Laravel Livewire Applications.",
     "keywords": [
@@ -8,15 +8,8 @@
         "react",
         "vue"
     ],
-    "homepage": "https://github.com/ijpatricio/mingle",
+    "homepage": "https://github.com/arman-arif/livewire-mingle",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Joao Patricio",
-            "email": "ijpatricio@gmail.com",
-            "role": "Developer"
-        }
-    ],
     "require": {
         "php": "^8.1",
         "spatie/laravel-package-tools": "^1.16",

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ariful\LivewireMingle;
+namespace Aarif\MingleJs;
 
 class Replacement
 {

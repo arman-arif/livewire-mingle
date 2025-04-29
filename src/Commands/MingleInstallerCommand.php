@@ -1,10 +1,10 @@
 <?php
 
-namespace Ariful\LivewireMingle\Commands;
+namespace Aarif\MingleJs\Commands;
 
-use Ariful\LivewireMingle\Actions\AddDemoViewAndRoute;
-use Ariful\LivewireMingle\Actions\ChangeViteConfig;
-use Ariful\LivewireMingle\Actions\ChangeLayoutFile;
+use Aarif\MingleJs\Actions\AddDemoViewAndRoute;
+use Aarif\MingleJs\Actions\ChangeViteConfig;
+use Aarif\MingleJs\Actions\ChangeLayoutFile;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 

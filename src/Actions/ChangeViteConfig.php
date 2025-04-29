@@ -1,8 +1,8 @@
 <?php
 
-namespace Ariful\LivewireMingle\Actions;
+namespace Aarif\MingleJs\Actions;
 
-use Ariful\LivewireMingle\Replacement;
+use Aarif\MingleJs\Replacement;
 use Illuminate\Support\Facades\File;
 
 class ChangeViteConfig

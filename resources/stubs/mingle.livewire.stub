@@ -2,8 +2,8 @@
 
 namespace {{ namespace }};
 
-use Ariful\LivewireMingle\Contracts\HasMingles;
-use Ariful\LivewireMingle\Concerns\InteractsWithMingles;
+use Aarif\MingleJs\Contracts\HasMingles;
+use Aarif\MingleJs\Concerns\InteractsWithMingles;
 use Livewire\Component;
 use Illuminate\Support\Collection;
 

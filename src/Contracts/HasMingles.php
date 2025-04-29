@@ -1,6 +1,6 @@
 <?php
 
-namespace Ariful\LivewireMingle\Contracts;
+namespace Aarif\MingleJs\Contracts;
 
 interface HasMingles
 {

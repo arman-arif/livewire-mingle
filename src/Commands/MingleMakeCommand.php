@@ -1,6 +1,6 @@
 <?php
 
-namespace Ariful\LivewireMingle\Commands;
+namespace Aarif\MingleJs\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 use Illuminate\Support\Collection;

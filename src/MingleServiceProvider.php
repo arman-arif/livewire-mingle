@@ -1,11 +1,11 @@
 <?php
 
-namespace Ariful\LivewireMingle;
+namespace Aarif\MingleJs;
 
-use Ariful\LivewireMingle\Commands\MingleInstallerCommand;
+use Aarif\MingleJs\Commands\MingleInstallerCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Ariful\LivewireMingle\Commands\MingleMakeCommand;
+use Aarif\MingleJs\Commands\MingleMakeCommand;
 
 class MingleServiceProvider extends PackageServiceProvider
 {
@@ -17,7 +17,7 @@ class MingleServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('livewire-mingle')
+            ->name('minglejs')
             ->hasConfigFile()
             ->hasViews()
             ->hasCommands(...[

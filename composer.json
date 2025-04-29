@@ -1,7 +1,7 @@
 {
-    "name": "ariful/livewire-mingle",
+    "name": "aarif/minglejs",
     "type": "library",
-    "description": "Use Vue and React in Laravel Livewire Applications.",
+    "description": "Use Vue and React in Laravel Livewire Applications. Laravel 10 and PHP 8.1",
     "keywords": [
         "laravel",
         "livewire",
@@ -27,13 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Ariful\\LivewireMingle\\": "src/",
-            "Ariful\\LivewireMingle\\Database\\Factories\\": "database/factories/"
+            "Aarif\\MingleJs\\": "src/",
+            "Aarif\\MingleJs\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ariful\\LivewireMingle\\Tests\\": "tests/"
+            "Aarif\\MingleJs\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -64,10 +64,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ariful\\LivewireMingle\\MingleServiceProvider"
+                "Aarif\\MingleJs\\MingleServiceProvider"
             ],
             "aliases": {
-                "Mingle": "Ariful\\LivewireMingle\\Facades\\Mingle"
+                "Mingle": "Aarif\\MingleJs\\Facades\\Mingle"
             }
         }
     },
